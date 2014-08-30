@@ -10,6 +10,10 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+- (void)setProgress:(NSNumber *)fraction;
+- (void)setIndeterminate:(BOOL)flag;
+- (void)startAnimation:(id)sender;
+- (void)stopAnimation:(id)sender;
 
 @end
 

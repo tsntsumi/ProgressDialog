@@ -12,6 +12,9 @@
 		A62AAD5219A9F030006DFC77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A62AAD5119A9F030006DFC77 /* Images.xcassets */; };
 		A62AAD5519A9F030006DFC77 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62AAD5319A9F030006DFC77 /* MainMenu.xib */; };
 		A62AAD6119A9F030006DFC77 /* ProgressDialogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AAD6019A9F030006DFC77 /* ProgressDialogTests.m */; };
+		A62AAD6D19A9F496006DFC77 /* ProgressDialog.sdef in Resources */ = {isa = PBXBuildFile; fileRef = A62AAD6C19A9F496006DFC77 /* ProgressDialog.sdef */; };
+		A62AAD7019A9F99B006DFC77 /* PRDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AAD6F19A9F99B006DFC77 /* PRDWindow.m */; };
+		A62AAD7219B22EE7006DFC77 /* ProgressDialog.icns in Resources */ = {isa = PBXBuildFile; fileRef = A62AAD7119B22EE7006DFC77 /* ProgressDialog.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 		A62AAD5A19A9F030006DFC77 /* ProgressDialogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressDialogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62AAD5F19A9F030006DFC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A62AAD6019A9F030006DFC77 /* ProgressDialogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressDialogTests.m; sourceTree = "<group>"; };
+		A62AAD6C19A9F496006DFC77 /* ProgressDialog.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ProgressDialog.sdef; sourceTree = "<group>"; };
+		A62AAD6E19A9F99B006DFC77 /* PRDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRDWindow.h; sourceTree = "<group>"; };
+		A62AAD6F19A9F99B006DFC77 /* PRDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRDWindow.m; sourceTree = "<group>"; };
+		A62AAD7119B22EE7006DFC77 /* ProgressDialog.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ProgressDialog.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +85,12 @@
 			children = (
 				A62AAD4E19A9F030006DFC77 /* AppDelegate.h */,
 				A62AAD4F19A9F030006DFC77 /* AppDelegate.m */,
+				A62AAD6E19A9F99B006DFC77 /* PRDWindow.h */,
+				A62AAD6F19A9F99B006DFC77 /* PRDWindow.m */,
 				A62AAD5119A9F030006DFC77 /* Images.xcassets */,
 				A62AAD5319A9F030006DFC77 /* MainMenu.xib */,
+				A62AAD7119B22EE7006DFC77 /* ProgressDialog.icns */,
+				A62AAD6C19A9F496006DFC77 /* ProgressDialog.sdef */,
 				A62AAD4A19A9F030006DFC77 /* Supporting Files */,
 			);
 			path = ProgressDialog;
@@ -191,8 +202,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62AAD6D19A9F496006DFC77 /* ProgressDialog.sdef in Resources */,
 				A62AAD5219A9F030006DFC77 /* Images.xcassets in Resources */,
 				A62AAD5519A9F030006DFC77 /* MainMenu.xib in Resources */,
+				A62AAD7219B22EE7006DFC77 /* ProgressDialog.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A62AAD5019A9F030006DFC77 /* AppDelegate.m in Sources */,
+				A62AAD7019A9F99B006DFC77 /* PRDWindow.m in Sources */,
 				A62AAD4D19A9F030006DFC77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
