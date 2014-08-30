@@ -15,6 +15,9 @@
 		A62AAD6D19A9F496006DFC77 /* ProgressDialog.sdef in Resources */ = {isa = PBXBuildFile; fileRef = A62AAD6C19A9F496006DFC77 /* ProgressDialog.sdef */; };
 		A62AAD7019A9F99B006DFC77 /* PRDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A62AAD6F19A9F99B006DFC77 /* PRDWindow.m */; };
 		A62AAD7219B22EE7006DFC77 /* ProgressDialog.icns in Resources */ = {isa = PBXBuildFile; fileRef = A62AAD7119B22EE7006DFC77 /* ProgressDialog.icns */; };
+		A62AAD7519B257CB006DFC77 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A62AAD7319B257CB006DFC77 /* LICENSE */; };
+		A62AAD7619B257CB006DFC77 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A62AAD7419B257CB006DFC77 /* README.md */; };
+		A62AAD7819B25907006DFC77 /* SampleScript.scpt in Resources */ = {isa = PBXBuildFile; fileRef = A62AAD7719B25907006DFC77 /* SampleScript.scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		A62AAD6E19A9F99B006DFC77 /* PRDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRDWindow.h; sourceTree = "<group>"; };
 		A62AAD6F19A9F99B006DFC77 /* PRDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRDWindow.m; sourceTree = "<group>"; };
 		A62AAD7119B22EE7006DFC77 /* ProgressDialog.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ProgressDialog.icns; sourceTree = "<group>"; };
+		A62AAD7319B257CB006DFC77 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A62AAD7419B257CB006DFC77 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A62AAD7719B25907006DFC77 /* SampleScript.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleScript.scpt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,9 @@
 		A62AAD3E19A9F030006DFC77 = {
 			isa = PBXGroup;
 			children = (
+				A62AAD7319B257CB006DFC77 /* LICENSE */,
+				A62AAD7419B257CB006DFC77 /* README.md */,
+				A62AAD7719B25907006DFC77 /* SampleScript.scpt */,
 				A62AAD4919A9F030006DFC77 /* ProgressDialog */,
 				A62AAD5D19A9F030006DFC77 /* ProgressDialogTests */,
 				A62AAD4819A9F030006DFC77 /* Products */,
@@ -206,6 +215,8 @@
 				A62AAD5219A9F030006DFC77 /* Images.xcassets in Resources */,
 				A62AAD5519A9F030006DFC77 /* MainMenu.xib in Resources */,
 				A62AAD7219B22EE7006DFC77 /* ProgressDialog.icns in Resources */,
+				A62AAD7819B25907006DFC77 /* SampleScript.scpt in Resources */,
+				A62AAD7519B257CB006DFC77 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +236,7 @@
 			files = (
 				A62AAD5019A9F030006DFC77 /* AppDelegate.m in Sources */,
 				A62AAD7019A9F99B006DFC77 /* PRDWindow.m in Sources */,
+				A62AAD7619B257CB006DFC77 /* README.md in Sources */,
 				A62AAD4D19A9F030006DFC77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +424,7 @@
 				A62AAD6619A9F030006DFC77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A62AAD6719A9F030006DFC77 /* Build configuration list for PBXNativeTarget "ProgressDialogTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				A62AAD6919A9F030006DFC77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
